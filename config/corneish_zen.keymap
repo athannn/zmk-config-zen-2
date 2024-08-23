@@ -96,9 +96,9 @@
         mid_layer {
             label = "F-ROW";
             bindings = <
-&trans  &trans  &kp F12  &kp F7  &kp F8  &kp F9    &trans     &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_CLR  &trans
-&trans  &trans  &kp F11  &kp F4  &kp F5  &kp F6    &trans     &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans      &trans
-&trans  &trans  &kp F10  &kp F1  &kp F2  &kp F3    &mkp MCLK  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans      &trans
+&trans  &trans  &kp F12  &kp F7  &kp F8  &kp F9    &trans     &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_CLR      &trans
+&trans  &trans  &kp F11  &kp F4  &kp F5  &kp F6    &trans     &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &mwh MOVE_UP    &trans
+&trans  &trans  &kp F10  &kp F1  &kp F2  &kp F3    &mkp MCLK  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mwh MOVE_DOWN  &trans
                          &trans  &trans  &trans    &trans     &kp LALT        &trans
             >;
         };
